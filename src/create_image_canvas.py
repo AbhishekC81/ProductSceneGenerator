@@ -1,4 +1,5 @@
 from PIL import Image
+import os
 
 def create_image_canvas(no_bg_path):
     """

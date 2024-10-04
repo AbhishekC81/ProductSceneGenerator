@@ -43,7 +43,7 @@ def main():
         no_bg_path = remove_background(args.image, output_path)
 
         # Step 2: Generate mask
-        canvas = create_image_canvas(no_bg_path, output_path)
+        canvas = create_image_canvas(no_bg_path)
         print("Image Canvas Created Successfully!")
         mask = create_mask(canvas)
         print("Mask Created Successfully!")
