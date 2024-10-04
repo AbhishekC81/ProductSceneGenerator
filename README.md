@@ -17,21 +17,21 @@ pip install -r requirements.txt
 To run the pipeline, use the following command:
 
 ```bash
-python run.py --image Examples/cooking_pot.jpg --text-prompt "product in a kitchen used in meal generation"
+python run.py --image Examples/tent.jpg --text-prompt "Camping tent in a green lawn."
 ```
 
 ## Example Result
 
 ### Input Image
-![Input Image](Examples/cooking_pot.jpg)
+![Input Image](Examples/tent.jpg)
 
 ### Text Prompt
-*"Product in a kitchen used in meal generation"*
+*"Camping tent in a green lawn."*
 
 ### Scene
-![Scene Output](Results/cooking_pot_20241005_002321/scene.jpg)
+![Scene Output](Results/tent_20241005_002505/scene.jpg)
 
 ### Video
-![Video Output](Results/cooking_pot_20241005_002321/video.mp4)
+![Video Output](Results/tent_20241005_002505/video.mp4)
 
 You can view other generations in the [Results](Results) folder.
